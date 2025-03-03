@@ -1,0 +1,58 @@
+.edit-patient-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  .edit-patient-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .edit-patient-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .edit-patient-form input,
+  .edit-patient-form select,
+  .edit-patient-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .edit-patient-form textarea {
+    height: 100px;
+  }
+  
+  .edit-patient-form .form-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .edit-patient-form button {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .edit-patient-form button[type="button"] {
+    background-color: #f44336;
+  }
+  
+  .edit-patient-form button:hover {
+    opacity: 0.8;
+  }
+  

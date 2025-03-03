@@ -1,0 +1,112 @@
+.manage-user-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .manage-user-container h2 {
+    text-align: center;
+    color: #0D095A;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .user-table th, .user-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .user-table th {
+    background-color: rgb(156, 196, 242);
+    color: black;
+  }
+  
+  button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .edit-btn {
+    background-color: rgb(218, 128, 38);
+    color: white;
+    margin-right: 10px;
+  }
+  
+  .edit-btn:hover {
+    background-color: white;
+    border: 1px solid rgb(218, 128, 38);
+    color: #555;
+  }
+  
+  .delete-btn {
+    background-color: #D9534F;
+    color: white;
+  }
+  
+  .delete-btn:hover {
+    background-color: #c12e29;
+  }
+  
+  /* Popup Styles */
+  .delete-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .popup-actions {
+    margin-top: 20px;
+  }
+  
+  .popup-actions button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .confirm-btn {
+    background-color: #d9534f;
+    color: white;
+  }
+  
+  .confirm-btn:hover {
+    background-color: #c12e29;
+  }
+  
+  .cancel-btn {
+    background-color: rgb(91, 139, 53);
+    color: white;
+  }
+  

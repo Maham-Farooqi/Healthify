@@ -1,0 +1,195 @@
+.patient-interaction-page {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    padding: 30px 0;
+    min-height: 100vh;
+}
+
+.patient-interaction-page .page-title {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #0D095A;
+    margin-bottom: 20px;
+}
+
+.patient-interaction-page .patient-list-section {
+    margin-bottom: 30px;
+}
+
+.patient-interaction-page .section-heading {
+    font-size: 1.8em;
+    color: #0D095A;
+    margin-bottom: 15px;
+    border-bottom: 3px solid rgb(218, 128, 38);
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.patient-interaction-page .patient-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+    margin-left: 3rem;
+}
+
+.patient-interaction-page .patient-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 280px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.patient-interaction-page .patient-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.patient-interaction-page .patient-card.selected {
+    border: 2px solid rgb(218, 128, 38);
+    box-shadow: 0 6px 12px rgba(218, 128, 38, 0.3);
+}
+
+.patient-interaction-page .patient-info h3 {
+    font-size: 1.2em;
+    margin: 0;
+    color: #0D095A;
+}
+
+.patient-interaction-page .patient-info p {
+    margin: 5px 0;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.patient-name-image {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.patient-name-image img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.patient-name-image span {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #0D095A;
+}
+
+.patient-interaction-page .chat-room-section {
+    margin-top: 30px;
+}
+
+.patient-interaction-page .chat-room {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.patient-interaction-page .chat-body {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+    background-color: #f3f3f3;
+}
+
+.patient-interaction-page .chat-message {
+    max-width: 75%;
+    margin-bottom: 15px;
+    padding: 12px;
+    border-radius: 15px;
+    font-size: 1.1em;
+    word-wrap: break-word;
+}
+
+.patient-interaction-page .chat-message.sent {
+    background-color: rgb(156, 196, 242);
+    color: #333; 
+    align-self: flex-end;
+    text-align: right;
+}
+
+.patient-interaction-page .chat-message.received {
+    background-color: #f1f1f1; 
+    color: #333; 
+    align-self: flex-start;
+    text-align: left;
+}
+
+.patient-interaction-page .chat-message .timestamp {
+    font-size: 0.8em;
+    color: #fff;
+    margin-top: 5px;
+    display: block;
+    font-style: italic;
+}
+
+.patient-interaction-page .no-messages {
+    text-align: center;
+    color: #999;
+    font-size: 1.2em;
+    margin-top: 50px;
+}
+
+.patient-interaction-page .chat-footer {
+    display: flex;
+    padding: 15px;
+    background: white;
+    border-top: 1px solid #ddd;
+}
+
+.patient-interaction-page .chat-footer input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    font-size: 1em;
+}
+
+.patient-interaction-page .chat-footer input:focus {
+    border-color: rgb(218, 128, 38);
+    outline: none;
+}
+
+.patient-interaction-page .chat-footer .send-btn {
+    background: rgb(218, 128, 38);
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.patient-interaction-page .chat-footer .send-btn:hover {
+    background: rgb(245, 146, 51);
+}
+.delete-btn {
+    background: transparent;
+    border: none;
+    color: red;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.delete-btn:hover {
+    text-decoration: underline;
+}

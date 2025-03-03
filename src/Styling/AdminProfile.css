@@ -1,0 +1,51 @@
+
+.profile-container {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+  }
+  
+  .largetextblue {
+    font-size: 4em;
+    font-weight: 700;
+    margin-top: 4rem; 
+    text-align: center;
+    color: #0D095A;
+  }
+  
+  .profile-table {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #0D095A;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  .tableCell {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .tableCellFirst {
+    text-align: center;
+    padding: 10px;
+    background-color: #9CC4F2;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .tableInput {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+
+  footer {
+    margin-top: auto; 
+  }
+  

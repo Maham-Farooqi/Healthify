@@ -1,0 +1,214 @@
+.consultation-page {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    padding: 40px 0;
+    
+}
+
+.page-heading {
+    font-size: 3.5em;
+    color: #0D095A;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 3.5rem;
+    font-weight: 700;
+}
+
+.page-subheading {
+    font-size: 1.6em;
+    color: #555;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.search-bar {
+    text-align: center;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.search-input {
+    padding: 12px;
+    width: 60%;
+    font-size: 1.1em;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.patients-table-container {
+    overflow-x: auto;
+    max-width: 85%; 
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.patients-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.patients-table th,
+.patients-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.patients-table th {
+    background-color: rgb(156, 196, 242);
+    color: black;
+    font-weight: bold;
+}
+
+.patients-table tr:hover {
+    background-color: rgb(201, 223, 248);
+}
+
+.patient-name-image {
+    display: flex;
+    align-items: center;
+    gap: 15px;  
+}
+
+.patient-name-image img {
+    width: 50px;       
+    height: 50px;        
+    border-radius: 50%;  
+}
+
+.patient-name-image span {
+    font-size: 1.2em;   
+    font-weight: 600;    
+}
+
+
+.action-btn {
+    background-color: rgb(218, 128, 38);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    cursor: pointer;
+    margin-bottom: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.action-btn:hover {
+    background-color: white;
+    border: 1px solid rgb(228, 124, 20);
+    color: #555;
+}
+
+.patient-consultation {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.consultation-details p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.consultation-actions {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.prescription-section {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.prescription-section input,
+.prescription-section textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1em;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    margin-top: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.prescription-section textarea {
+    height: 150px;
+}
+
+.save-prescription-btn {
+    background-color: rgb(91, 139, 53);
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+.save-prescription-btn:hover {
+    background-color: white;
+    border: 1px solid rgb(91, 139, 53);
+    color: #555;
+}
+
+.patient-interaction,
+.patient-history {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.chat-btn,
+.patient-history-btn {
+    background-color: rgb(218, 128, 38);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    cursor: pointer;
+    margin-bottom: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.chat-btn:hover,
+.patient-history-btn:hover {
+    background-color: white;
+    border: 1px solid rgb(228, 124, 20);
+    color: #555;
+}
+
+.button-icon {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.patient-history-container {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.patient-history-container h3 {
+    margin-bottom: 20px;
+    font-size: 1.6em;
+    color: #0D095A;
+}
